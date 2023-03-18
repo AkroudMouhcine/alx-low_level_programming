@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -24,7 +25,7 @@ int main(void)
 	}
 	else
 	{
-	printt("%d is zero\n, n");
+	printf("%d is zero\n, n");
 	}
 	/* your code goes there */
 	return (0);
