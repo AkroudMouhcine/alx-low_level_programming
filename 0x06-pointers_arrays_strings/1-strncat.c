@@ -1,29 +1,29 @@
 #include "main.h"
 
 /**
- * *_strncpy -> Copy Number Of String From Source Into Destinse
+ * *_strncat -> Appends Selected Number Elements src string to the dest string
  *
- * @dest: Empty Input
- * @src: Input Source
- * @n: Input Number
+ * @dest: Destination Input
+ * @src: Source Input
+ * @n: Number Elements
  *
- * Return: Destinse String
+ * Return: Destination
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
+	int j;
 
-	i = 0;
-	while (src[i] != '\0' && i < n)
+	for (i = 0; dest[i] != '\0'; i++)
 	{
-		dest[i] = src[i];
+		continue;
+	}
+	for (j = 0; dest[j] != '\0' && j < n; j++)
+	{
+		dest[i] = src[j];
 		i++;
 	}
-	while (i < n)
-	{
-		dest[i] = '\0';
-		i++;
-	}
+	dest[i] = '\0';
 	return (dest);
 }
