@@ -23,11 +23,11 @@ int main(int argc, char *argv[])
 		count++;
 
 	for (; i >= 10; i -= 10)
-                count++;
+		count++;
 	for (; i >= 5; i -= 5)
-                count++;
+		count++;
 	for (; i >= 2; i -= 2)
-                count++;
+		count++;
 	if (i > 0)
 		count++;
 	printf("%d\n", count);
