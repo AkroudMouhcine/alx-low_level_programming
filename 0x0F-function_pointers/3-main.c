@@ -4,11 +4,12 @@
 #include <stddef.h>
 
 /**
- *main - Output.
- *@argc: argument.
- *@argv: argument.
+ * main - Output.
  *
- * Ruturn: Always 0
+ * @argc: argument.
+ * @argv: argument.
+ *
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
