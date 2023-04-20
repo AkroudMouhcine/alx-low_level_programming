@@ -13,7 +13,7 @@ int op_add(int a, int b)
 	return (a + b);
 }
 /**
- * op_add - add int.
+ * op_sub - add int.
  * @a: int.
  * @b: int.
  *
@@ -25,7 +25,7 @@ int op_sub(int a, int b)
 	return (a - b);
 }
 /**
- * op_add - add int.
+ * op_mul - add int.
  * @a: int.
  * @b: int.
  *
@@ -37,7 +37,7 @@ int op_mul(int a, int b)
 	return (a * b);
 }
 /**
- * op_add - add int.
+ * op_div - add int.
  * @a: int.
  * @b: int.
  *
@@ -49,7 +49,7 @@ int op_div(int a, int b)
 	return (a / b);
 }
 /**
- * op_add - add int.
+ * op_mod - add int.
  * @a: int.
  * @b: int.
  *
