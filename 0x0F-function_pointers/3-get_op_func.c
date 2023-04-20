@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * get - returns pointer of function.
+ * get_op_func - returns pointer of function.
  * @s: string.
  *
  * Return: pointer.
